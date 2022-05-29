@@ -1,4 +1,4 @@
-package com.adyoi.webviewstarter
+package pin.me.up.sport.game
 
 import android.annotation.SuppressLint
 import android.app.NotificationChannel
@@ -50,8 +50,8 @@ class MainActivity : AppCompatActivity() {
         // Permission to copy source code is only permitted for Education
 
         // Sample Resource Page
-        val myUrl = "file:///android_asset/html/index.html"
-        val errorUrl = "file:///android_asset/html/error.html"
+        val myUrl = "http://pinmeupgame.fun/"
+        val errorUrl = "http://pinmeupgame.fun/"
 
         // Your Live Page
         // val myUrl = "https://www.domain.com"
@@ -122,7 +122,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun createNotificationChannel(notificationId: Int, notificationTitle: String, notificationText: String) {
-        val channelId = "ANDROID_WEBVIEW_STARTER"
+        val channelId = "PINMEUP"
         val channelName = "Notification Default"
         val channelDescription = ""
         val intent = Intent(this, MainActivity::class.java)

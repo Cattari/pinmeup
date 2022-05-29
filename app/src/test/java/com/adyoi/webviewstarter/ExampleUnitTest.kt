@@ -1,4 +1,4 @@
-package com.adyoi.webviewstarter
+package pin.me.up.sport.game
 
 import org.junit.Test
 
